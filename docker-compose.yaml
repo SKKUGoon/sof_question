@@ -1,0 +1,17 @@
+version: '2'
+services:
+  py1:
+    build:
+      context: .
+      dockerfile: ./docker/inf1/Dockerfile
+  
+  py2:
+    build:
+      context: .
+      dockerfile: ./docker/inf2/Dockerfile
+
+  py3:
+    build:
+      context: .
+      dockerfile: ./docker/proc1/Dockerfile
+  
