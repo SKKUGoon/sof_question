@@ -6,5 +6,5 @@ class InfiniteProcess2:
 
     def infinite_loop(self):
         while True:
-            print("InfProcess 2")
+            print("InfProcess 2", flush=True)
             time.sleep(2)

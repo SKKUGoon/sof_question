@@ -3,4 +3,4 @@ class SimpleProcess:
         self.my_name = name_
 
     def run(self):
-        print(f"my name is {self.my_name}")
+        print(f"my name is {self.my_name}", flush=True)

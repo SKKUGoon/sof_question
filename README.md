@@ -1,3 +1,16 @@
+Question was posted on stack overflow.
+
+* https://stackoverflow.com/questions/74811707/python-docker-container-not-running-simultaneously/74811891#74811891
+
+* Answered thanks to nice comment. 
+```
+docker-python-py1-1  | InfProcess 1
+docker-python-py2-1  | InfProcess 2
+```
+It works like a charm. Thanks!
+
+
+Question >>
 I tried to start 3 docker containers from single repository. 
 My file tree is like so.
 
